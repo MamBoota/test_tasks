@@ -11,6 +11,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.example.focusstart_android_testtask.R
+import com.example.focusstart_android_testtask.data.App
 import com.example.focusstart_android_testtask.databinding.FragmentStartBinding
 import com.example.focusstart_android_testtask.entity.Bins
 

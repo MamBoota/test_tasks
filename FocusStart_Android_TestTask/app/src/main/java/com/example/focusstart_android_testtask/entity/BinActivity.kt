@@ -1,5 +1,6 @@
 package com.example.focusstart_android_testtask.entity
 
+import androidx.appcompat.widget.EmojiCompatConfigurationView
 import com.example.focusstart_android_testtask.data.Bank
 import com.example.focusstart_android_testtask.data.Country
 

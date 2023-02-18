@@ -226,12 +226,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_output_brand" />
 
-    <ImageView
-        android:id="@+id/iv_flag"
+    <androidx.emoji.widget.EmojiAppCompatTextView
+        android:id="@+id/etv_flag"
         android:layout_width="25dp"
         android:layout_height="18dp"
         android:layout_marginTop="10dp"
-        android:background="@color/black"
+        android:text="Test"
         app:layout_constraintStart_toStartOf="@+id/tv_country"
         app:layout_constraintTop_toBottomOf="@+id/tv_country" />
 
@@ -247,9 +247,9 @@
         android:textAllCaps="false"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/iv_flag"
-        app:layout_constraintStart_toEndOf="@+id/iv_flag"
-        app:layout_constraintTop_toTopOf="@+id/iv_flag" />
+        app:layout_constraintBottom_toBottomOf="@+id/etv_flag"
+        app:layout_constraintStart_toEndOf="@+id/etv_flag"
+        app:layout_constraintTop_toTopOf="@+id/etv_flag" />
 
     <TextView
         android:id="@+id/tv_latitude"
@@ -260,8 +260,8 @@
         android:textAlignment="textStart"
         android:textAllCaps="false"
         android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="@+id/iv_flag"
-        app:layout_constraintTop_toBottomOf="@+id/iv_flag" />
+        app:layout_constraintStart_toStartOf="@+id/etv_flag"
+        app:layout_constraintTop_toBottomOf="@+id/etv_flag" />
 
     <TextView
         android:id="@+id/tv_output_latitude"

@@ -1,5 +1,6 @@
 package com.example.focusstart_android_testtask.data
 
+import androidx.appcompat.widget.EmojiCompatConfigurationView
 import com.example.focusstart_android_testtask.entity.BinActivity
 
 data class BinActivityDto(
@@ -18,6 +19,7 @@ data class Number(
 )
 
 data class Country(
+    val emoji: String,
     val name: String,
     val latitude: Int,
     val longitude: Int

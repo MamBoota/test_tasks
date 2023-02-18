@@ -61,6 +61,7 @@ class ResultsFragment : Fragment() {
                     tvOutputUrl.text = it?.bank?.url
                     tvOutputPhone.text = it?.bank?.phone
                     tvOutputCity.text = it?.bank?.city
+                    etvFlag.text = it?.country?.emoji.toString()
                 }
             }
         }
